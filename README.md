@@ -2,7 +2,14 @@
 
 The main focus is to provide code in a ready to use format for learning quickly and efficiently
 
+## Tips and guides for development
+
+1. Always create a branch when adding new code
+2. Look at a comparison site for HTML and CSS ideas when attempting to replicate a design
+
 ## Notes and Examples of HTML Element use
+
+#### Example of the Title Metadata
 
 ```HTML
 <!--The title is used on the tab of the browser
@@ -13,17 +20,23 @@ Place this element in the <head></head> -->
 <title>Create your online store today with Shopify</title>
 ```
 
+#### Adding a container
+
 The `container` HTML element is a `div`
 
 ```HTML
 <div></div>
 ```
 
+#### Including a stylesheet in your project
+
 A `link` element is used to include css stylesheets in your HTML file
 
 ```HTML
 <link rel="stylesheet" href="style.css" />
 ```
+
+#### Including a script in your project
 
 A `script` element is used to include javascript in your HTML file
 
@@ -34,6 +47,8 @@ A `script` element is used to include javascript in your HTML file
 ### Including an Image
 
 When including an image on your site here are some options:
+
+#### Using a div container
 
 If you want to use a `div` as a container
 
@@ -51,6 +66,8 @@ If you want to use a `div` as a container
 <caption id="img-caption">Image description</caption>
 ```
 
+#### using a figure container
+
 If you want to use a `figure` element
 
 ```HTML
@@ -65,7 +82,9 @@ If you want to use a `figure` element
 <figcaption id="img-caption">Image description</figcaption>
 ```
 
-To create a title us an `h[#}` element
+#### Adding a header
+
+To create a header us an `h[#}` element
 
 ```HTML
 <h1>Largest Title (Typically reserved for the title of the site</h1>
@@ -73,11 +92,15 @@ To create a title us an `h[#}` element
 <h3>Sub Section Titles</h3>
 ```
 
+#### Adding a link
+
 Links to external sources use an `a` element
 
 ```HTML
 <a id="" href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer">
 ```
+
+#### Adding a button with a link
 
 Wrapping a link in a `button` element
 
@@ -88,6 +111,8 @@ Wrapping a link in a `button` element
 </button>
 ```
 
+#### Adding longer text
+
 To add a paragraph of text or most text in general that requires
 more than one line, use a `p` element
 
@@ -96,6 +121,8 @@ more than one line, use a `p` element
   of text...YAY!
 </p>
 ```
+
+#### Adding short text
 
 To add short text, you can use a `span` element
 
@@ -118,14 +145,14 @@ Use https://www.shopify.com/free-trial as an example for the first assignment
 
 ### Requirements
 
-1. Create a page with an image across the top and wrapped in a container
-2. Add a title beneath the image labeled Services or Products
-3. Add a container beneath the title with a class that utilizes a grid setup
+1. Add an image across the top and wrapped in a container
+2. Add a header beneath the image labeled Services or Products
+3. Add a container beneath the header with a class that utilizes a grid setup
 4. Within the grid container, add 3 containers, one for each of the grid items
 5. Within the grid item:
 
    1. Add an Image
-   2. Add a Title
+   2. Add a Header
    3. Add a brief description
 
 6. Add another grid container for an image gallery
